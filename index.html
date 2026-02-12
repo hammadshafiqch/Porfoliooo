@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Designer · portfolio</title>
+  <!-- SEPARATE CSS FILE (linked) -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts (optional but keeps styling clean) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <!-- SEMANTIC HEADER / NAVIGATION -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="index.html">Hammad.<span>GFX</span></a>
+      </div>
+      <nav class="primary-nav">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION — WITH YOUR PHOTO IN RIGHT UPPER CORNER BOX -->
+    <section class="hero">
+      <div class="container hero-flex">
+        <div class="hero-text">
+          <p class="greeting">✨ Hello, I'm</p>
+          <h1>Ch Hammad</h1>
+          <h2>Graphics Designer · Visual Designer</h2>
+          <p class="hero-description">
+Turn impressions into clicks with high-performance thumbnail design. I blend visual psychology, aggressive color theory, and strategic storytelling to give your videos the competitive edge they deserve. Don't let your content get buried—invest in thumbnails engineered to maximize CTR and skyrocket your channel's growth.          </p>
+          <a href="https://drive.google.com/drive/folders/15hfQ2g03g2COefkwNwikkJm10fsYcABk?usp=sharing" class="btn btn-primary">View projects</a>
+          <!-- LET'S TALK BUTTON - NOW SCROLLS TO SELECTED WORK SECTION -->
+          <a href="#featured-work" class="btn btn-outline lets-talk-scroll">Let's talk</a>
+        </div>
+        <div class="hero-visual">
+          <!-- YOUR PHOTO IN RIGHT UPPER CORNER BOX -->
+          <div class="photo-frame">
+            <img src="./profile photo.png" 
+                 alt="Ch Hammad - Graphic Designer" 
+                 class="profile-photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED PROJECTS PREVIEW WITH ID FOR SCROLLING -->
+    <section id="featured-work" class="featured-projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Selected work</h2>
+          <p>You can place order in fiverr!</p>
+        </div>
+        <div class="project-grid">
+          <div class="project-card">
+            <a href="https://www.fiverr.com/s/9955YRY" target="_blank" class="card-link">
+              <div class="card-content">
+                <img src="./3.jpg" alt="Detective Thumbnails" class="project-image">
+                <h3>Detective Thumbnails</h3>
+                <span class="project-tag">Fiverr</span>
+                <p>You can code 804 for 20% discount.</p>
+              </div>
+            </a>
+          </div>
+          <!-- PROJECT CARD 2 -->
+          <div class="project-card">
+            <a href="https://www.fiverr.com/s/kLEEr4W" target="_blank" class="card-link">
+              <div class="card-content">
+                <img src="./2.jpg" alt="Editing Thumbnails" class="project-image">
+                <h3>Editing Thumbnails</h3>
+                <span class="project-tag">Fiverr</span>
+                <p>Affordable price for premium thumbnails.</p>
+              </div>
+            </a>
+          </div>
+          <!-- PROJECT CARD 3 -->
+          <div class="project-card">
+            <a href="https://www.fiverr.com/s/kLEErPg" target="_blank" class="card-link">
+              <div class="card-content">
+                <img src="./thubnail.jpg" alt="Gaming Thumbnails" class="project-image">
+                <h3>Gaming Thumbnails</h3>
+                <span class="project-tag">Fiverr</span>
+                <p>Gaming thumbnail like this.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="center-btn">
+          <a href="https://drive.google.com/drive/folders/15hfQ2g03g2COefkwNwikkJm10fsYcABk?usp=sharing" class="btn btn-secondary">explore all projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE / DESIGN PHILOSOPHY (small interactive part with JS) -->
+    <section class="design-philosophy">
+      <div class="container philosophy-box">
+        <blockquote id="dynamicQuote">
+          “Design is intelligence made visible.”
+        </blockquote>
+        <button id="quoteBtn" class="btn-quote">Thoughts</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER WITH CENTERED SOCIAL MEDIA BUTTONS -->
+<footer class="main-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2026 Ch Hammad — graphics designer</p>
+      <div class="social-links">
+        <!-- YOUTUBE -->
+        <a href="https://www.youtube.com/@ChHammadShafiq" target="_blank" aria-label="YouTube" class="social-btn youtube">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/youtube.svg" alt="YouTube" class="social-icon">
+        </a>
+        <!-- FIVERR -->
+        <a href="https://www.fiverr.com/s/kLEErPg" target="_blank" aria-label="Fiverr" class="social-btn fiverr">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/fiverr.svg" alt="Fiverr" class="social-icon">
+        </a>
+        <!-- INSTAGRAM -->
+        <a href="https://www.instagram.com/hammad_visual/" target="_blank" aria-label="Instagram" class="social-btn instagram">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg" alt="Instagram" class="social-icon">
+        </a>
+        <!-- WHATSAPP -->
+        <a href="https://chat.whatsapp.com/B6OG19ByRwUES22Rbs9WTe" target="_blank" aria-label="WhatsApp" class="social-btn whatsapp">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt="WhatsApp" class="social-icon">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+

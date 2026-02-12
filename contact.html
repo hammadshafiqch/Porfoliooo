@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · Ch Hammad - Graphic Designer</title>
+  <!-- SEPARATE CSS FILE (linked) -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- SEMANTIC HEADER / NAVIGATION -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="index.html">Hammad.<span>dev</span></a>
+      </div>
+      <nav class="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- CONTACT HERO SECTION -->
+    <section class="contact-hero">
+      <div class="container">
+        <div class="contact-header">
+          <h1>Let's Work Together</h1>
+          <p class="contact-subtitle">Have a project in mind? I'm just one message away.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CONTENT SECTION -->
+    <section class="contact-content">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- LEFT COLUMN - CONTACT INFO -->
+          <div class="contact-info">
+            <div class="contact-info-card">
+              <h2>Get in Touch</h2>
+              <p class="contact-description">Whether you need a high-CTR thumbnail, brand identity, or just want to say hello — I'll respond within 24 hours.</p>
+              
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-text">
+                    <h4>Email</h4>
+                    <a href="mailto:hammad.designs@gmail.com">Dynasbrothers@gmail.com</a>
+                  </div>
+                </div>
+                
+                <div class="contact-item">
+                  <div class="contact-icon">📱</div>
+                  <div class="contact-text">
+                    <h4>WhatsApp</h4>
+                    <a href="https://chat.whatsapp.com/B6OG19ByRwUES22Rbs9WT" target="_blank">Whatsapp Group</a>
+                  </div>
+                </div>
+                
+                <div class="contact-item">
+                  <div class="contact-icon">🛒</div>
+                  <div class="contact-text">
+                    <h4>Fiverr</h4>
+                    <a href="https://www.fiverr.com/s/7YbblPe" target="_blank">Ch Hammad</a>
+                  </div>
+                </div>
+                
+                <div class="contact-item">
+                  <div class="contact-icon">📍</div>
+                  <div class="contact-text">
+                    <h4>Location</h4>
+                    <p>Pakistan · Available Worldwide</p>
+                  </div>
+                </div>
+              </div>
+              
+              <!--  -->
+              
+              <div class="contact-promo">
+                <div class="promo-badge">
+                  <span class="promo-code">804</span>
+                  <span class="promo-text">Use code for 20% off on Fiverr!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- RIGHT COLUMN - CONTACT FORM -->
+          <div class="contact-form-container">
+            <div class="contact-form-card">
+              <h2>Send Me a Message</h2>
+              <p class="form-description">Fill out the form below and I'll get back to you ASAP.</p>
+              
+              <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Your Name *</label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                
+                <div class="form-row">
+                  <div class="form-group half">
+                    <label for="service">Service Needed</label>
+                    <select id="service" name="service">
+                      <option value="" disabled selected>Select service</option>
+                      <option value="thumbnail">YouTube Thumbnail</option>
+                      <option value="gaming">Gaming Thumbnail</option>
+                      <option value="branding">Brand Identity</option>
+                      <option value="editing">Photo Editing</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  
+                  <div class="form-group half">
+                    <label for="budget">Budget (USD)</label>
+                    <select id="budget" name="budget">
+                      <option value="" disabled selected>Select budget</option>
+                      <option value="10-25">$10 - $25</option>
+                      <option value="25-50">$25 - $50</option>
+                      <option value="50-100">$50 - $100</option>
+                      <option value="100+">$100+</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="message">Project Details *</label>
+                  <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, goals, timeline, etc..." required></textarea>
+                </div>
+                
+                <div class="form-group checkbox">
+                  <input type="checkbox" id="consent" name="consent" required>
+                  <label for="consent">I agree to receive a response via email or WhatsApp.</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary form-submit">Send Message <span class="send-icon">→</span></button>
+              </form>
+              
+              <div id="formSuccess" class="form-success" style="display: none;">
+                <div class="success-icon">✓</div>
+                <h3>Message Sent!</h3>
+                <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- QUICK RESPONSE SECTION -->
+    <section class="quick-response">
+      <div class="container">
+        <div class="response-box">
+          <div class="response-icon">⚡</div>
+          <h2>Fast Response Guarantee</h2>
+          <p>I typically respond within <span class="highlight">1-2 hours</span> during working hours (Mon-Fri, 9AM-6PM PK).</p>
+          <div class="response-stats">
+            <div class="response-stat">
+              <span class="stat-number">~1h</span>
+              <span class="stat-label">Avg. Response Time</span>
+            </div>
+            <div class="response-stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="response-stat">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FAQ SECTION -->
+    <section class="contact-faq">
+      <div class="container">
+        <div class="faq-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Quick answers to common questions</p>
+        </div>
+        
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How fast can you deliver a thumbnail?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Standard delivery is 24-48 hours. Rush delivery (4-8 hours) is available for an additional fee.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What information do you need to start?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Video title, topic/summary, any specific elements you want included, and reference images if available.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer revisions?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes! Every project includes 2 free revisions. Additional revisions are available at a small fee.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What payment methods do you accept?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Fiverr, PayPal, and direct bank transfer for local clients. 50% deposit required to start.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Can you match my existing brand style?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Absolutely! Send me your brand guidelines or examples, and I'll match your colors, fonts, and style.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer discounts for bulk orders?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes! 10% off for 5+ thumbnails, 15% off for 10+ thumbnails. Use code BULK at checkout.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- MAP / LOCATION SECTION (OPTIONAL) -->
+    <section class="contact-location">
+      <div class="container">
+        <div class="location-box">
+          <div class="location-info">
+            <h3>Available Worldwide</h3>
+            <p>Based in Pakistan · Serving clients globally</p>
+            <div class="timezone">
+              <span class="timezone-label">Current Time (PK):</span>
+              <span id="currentTime" class="timezone-value"></span>
+            </div>
+            <a href="https://chat.whatsapp.com/B6OG19ByRwUES22Rbs9WTe" target="_blank" class="btn btn-outline">Message on WhatsApp →</a>
+          </div>
+          <div class="location-badge">
+            <div class="globe-icon">🌍</div>
+            <div class="badge-text">100% Remote Friendly</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2026 <strong>Ch Hammad</strong> — graphics designer</p>
+        <div class="social-links">
+          <a href="https://www.youtube.com/@ChHammadShafiq" target="_blank" aria-label="YouTube" class="social-btn youtube">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/youtube.svg" alt="YouTube" class="social-icon">
+          </a>
+          <a href="https://www.fiverr.com/s/7YbblPe" target="_blank" aria-label="Fiverr" class="social-btn fiverr">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/fiverr.svg" alt="Fiverr" class="social-icon">
+          </a>
+          <a href="https://www.instagram.com/hammad_visuals_design/" target="_blank" aria-label="Instagram" class="social-btn instagram">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg" alt="Instagram" class="social-icon">
+          </a>
+          <a href="https://chat.whatsapp.com/B6OG19ByRwUES22Rbs9WTe" target="_blank" aria-label="WhatsApp" class="social-btn whatsapp">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt="WhatsApp" class="social-icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SEPARATE JS FILE (linked) -->
+  <script src="script.js"></script>
+  
+  <!-- Contact Form JavaScript -->
+  <script>
+    // Contact Form Submission
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.getElementById('contactForm');
+      const formSuccess = document.getElementById('formSuccess');
+      
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          // Here you would normally send the form data to a server
+          // For now, we'll just show the success message
+          contactForm.style.display = 'none';
+          formSuccess.style.display = 'block';
+          
+          // Log to console
+          console.log('Contact form submitted');
+        });
+      }
+      
+      // FAQ Toggle
+      const faqItems = document.querySelectorAll('.faq-item');
+      
+      faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        
+        question.addEventListener('click', () => {
+          // Close other open FAQs
+          faqItems.forEach(otherItem => {
+            if (otherItem !== item && otherItem.classList.contains('active')) {
+              otherItem.classList.remove('active');
+            }
+          });
+          
+          // Toggle current FAQ
+          item.classList.toggle('active');
+        });
+      });
+      
+      // Current Time in Pakistan
+      const timeElement = document.getElementById('currentTime');
+      if (timeElement) {
+        const options = { 
+          timeZone: 'Asia/Karachi', 
+          hour: '2-digit', 
+          minute: '2-digit',
+          hour12: true 
+        };
+        const currentTime = new Date().toLocaleTimeString('en-US', options);
+        timeElement.textContent = currentTime + ' PKT';
+      }
+    });
+  </script>
+</body>
+</html>
